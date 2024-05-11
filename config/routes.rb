@@ -7,4 +7,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  get "/greeting1", controller: "examples", action: "custom_method1"
+  get "/greeting2", controller: "examples", action: "custom_method2"
 end
